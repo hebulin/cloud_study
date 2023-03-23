@@ -1,10 +1,10 @@
 server:
   port: 3721
 
-#ä¯ÀÀÆ÷Í¨¹ı  http://localhost:3721/config/test£»   http://localhost:3721/application/master¡£²»Ğ´masterÄ¬ÈÏ¾ÍÊÇmaster
+#æµè§ˆå™¨é€šè¿‡  http://localhost:3721/config/testï¼›   http://localhost:3721/application/masterã€‚ä¸å†™masteré»˜è®¤å°±æ˜¯master
 #/{application}/{profile}/{label}
-#application±íÊ¾ÅäÖÃÎÄ¼şµÄÃû×Ö£»profile±íÊ¾»·¾³£ºdev¡¢test¡¢master£»label±íÊ¾·ÖÖ§£¬Ä¬ÈÏmaster·ÖÖ§
-#±¾µØÒ²ÓĞÒ»·İ£¬±£Ö¤git¹ÊÕÏºóÒ²»áÕı³£·ÃÎÊÅäÖÃÎÄ¼ş
+#applicationè¡¨ç¤ºé…ç½®æ–‡ä»¶çš„åå­—ï¼›profileè¡¨ç¤ºç¯å¢ƒï¼šdevã€testã€masterï¼›labelè¡¨ç¤ºåˆ†æ”¯ï¼Œé»˜è®¤masteråˆ†æ”¯
+#æœ¬åœ°ä¹Ÿæœ‰ä¸€ä»½ï¼Œä¿è¯gitæ•…éšœåä¹Ÿä¼šæ­£å¸¸è®¿é—®é…ç½®æ–‡ä»¶
 spring:
   application:
     name: springcloud-config-server
