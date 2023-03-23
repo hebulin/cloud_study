@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+
+#配置服务名称
+spring:
+  application:
+    name: springcloudconsumer
+
+#eureka的连接地址，通过下面地址连接到服务注册中心进行注册
+eureka:
+  client:
+    service-url:
+      dedaultZone: http://localhost:8761/eureka
+

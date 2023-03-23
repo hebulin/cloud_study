@@ -1,0 +1,18 @@
+server:
+  port: 3721
+
+#浏览器通过  http://localhost:3721/config/test；   http://localhost:3721/application/master。不写master默认就是master
+#/{application}/{profile}/{label}
+#application表示配置文件的名字；profile表示环境：dev、test、master；label表示分支，默认master分支
+#本地也有一份，保证git故障后也会正常访问配置文件
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hebulin/springcloud-config-server-cs.git
+          search-paths: spring-cloud-config-server-cs-file
+          username: hebulin@qq.com
+          password: 1509445hebulingithub
